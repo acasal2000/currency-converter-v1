@@ -1,0 +1,173 @@
+body{
+  /*  background: rgb(174,238,238);
+    background: radial-gradient(circle, rgba(174,238,238,1) 0%, rgba(108,149,180,1) 100%);*/
+    background-color: #fcfcfc;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#main-container{
+   /* border: 3px solid white; */
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #1c2e48;
+}
+
+#main-container h3{
+    color: white;
+    font-size: 30px;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: white;
+}
+
+#converter-container{
+  /*  border: 3px solid white; */
+    padding: 10px;
+    color: white;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#result-container{
+    /*border: 3px solid black;*/
+    padding: 10px;
+}
+
+#container-convert-from textarea{
+    /*height: 40px;*/
+    resize: none;
+    /*width: 193px;*/
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
+
+    width: 234px;
+    height: 120px;
+    background-color: #273952;
+    color: white;
+    border: none;
+
+    line-height: 120px;
+    text-align: center;
+}
+
+#container-convert-to textarea{
+    /*height: 40px;*/
+    resize: none;
+    /*width: 193px;*/
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
+
+    width: 234px;
+    height: 120px; 
+    background-color: #273952;  
+    color: white; 
+    border: none;
+
+    line-height: 120px;
+    text-align: center;
+}
+
+#textarea-convert-from{
+    display: flex;
+}
+#textarea-convert-to{
+    display: flex;
+}
+
+#container-convert-to select{
+    height: 50px;
+    width: 239px;    
+    background-color: #294660;
+    color: white;
+    border: none;
+    
+}
+
+#container-convert-from select{
+    height: 50px;
+    width: 239px;    
+    background-color: #294660;
+    color: white;
+    border: none;
+}
+
+
+#button-convert button{
+    height: 40px;
+    background: #ffffff;
+    border: none;
+    width: 40px;
+    border-radius: 100%;    
+}
+
+#container-convert-button{
+    margin: auto 0;
+}
+
+#container-convert-to {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+#container-convert-from{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#convert-coin{
+    background-color: #273952;
+    width: 63px;
+}
+
+#convert-coin2{
+    background-color: #273952;
+    width: 63px;
+}
+
+#coinType1H2{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    color: white;
+}
+
+#coinType2H2{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    color: white;
+}
+
+#selection-container{
+    display: flex;
+}
+
+#container-flag{
+    width: 60px;
+    padding: 1px;
+    background-color: #294660;
+}
+
+#selection-container2{
+    display: flex;
+}
+
+#container-flag2{
+    width: 60px;
+    padding: 1px;
+    background-color: #294660;
+}
+
+
+#flag-coin-img{
+    margin: 0 auto;
+    height: 28px;
+    width: 48px;
+    margin-top: 10px;
+}
